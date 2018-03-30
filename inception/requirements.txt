@@ -1,0 +1,8 @@
+keras
+tensorflow==1.5
+h5py
+numpy
+pillow
+imread
+flask-cors
+gunicorn
