@@ -43,7 +43,3 @@ def predict():
 	x = reshapeImage(request.files['img'])
 	y = predict_image(x)
 	return jsonify(y)
-
-
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
