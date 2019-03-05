@@ -33,7 +33,7 @@ def predict_image(image):
 	preds = model.predict(image)
 	P = imagenet_utils.decode_predictions(preds)
 	p = []
-	for (i, (_, label, prob)) in enumerate(P[0]):
+	for (_, (_, label, prob)) in enumerate(P[0]):
 		p.append({'label':label,'prob':prob*100})
 	return p
 
