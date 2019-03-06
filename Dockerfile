@@ -6,7 +6,7 @@ RUN conda install --yes tensorflow keras
 RUN conda install --yes -c luispedro imread
 RUN conda install --yes -c anaconda pillow
 
-COPY ./mnist /app
+COPY ./inception /app
 WORKDIR /app
 
 RUN pip install --no-cache-dir -r requirements.txt
