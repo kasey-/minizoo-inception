@@ -1,5 +1,5 @@
 keras
-tensorflow
+tensorflow==1.5
 h5py
 numpy
 pillow
